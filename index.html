@@ -9,18 +9,20 @@
 
   <body>
     <header class="header">
-      <a href="#" class="header__logo">
-        <img src="img/symbol.png" alt="Символ банка" />
-      </a>
-      <nav class="header__nav">
-        <a href="#about-bank">О банке</a>
-        <a href="#history">История</a>
-        <a href="#services">Услуги</a>
-        <a href="#course-money">Курсы валют</a>
-        <a href="#direction">Контакты</a>
-      </nav>
-      <div class="header__find">
-        <input type="text" placeholder="Поиск" />
+      <div class="header__inner">
+        <a href="#" class="header__logo">
+          <img src="img/symbol.png" alt="Символ банка" />
+        </a>
+        <nav class="header__nav">
+          <a href="#about-bank">О банке</a>
+          <a href="#history">История</a>
+          <a href="#services">Услуги</a>
+          <a href="#course-money">Курсы валют</a>
+          <a href="#direction">Контакты</a>
+        </nav>
+        <div class="header__find">
+          <input type="text" placeholder="Поиск" />
+        </div>
       </div>
     </header>
 
@@ -35,71 +37,8 @@
         </p>
         <p class="hint">* Более 500 лет защищаем магическое наследие</p>
         <img src="./img/hall.png" alt="Главный зал" class="img-with-shadow" />
-      </section>
-
-      <section>
-        <h2>Основан в 1474 году. Ограблен лишь единожды (и то без денег)</h2>
-        <div class="about">
-          <div class="about__left">
-            <img
-              src="./img/about/Gringott.png"
-              alt="Основатель банка Гринготт"
-            />
-            <p>
-              Легендарный гоблин Гринготт вырезал первые своды Гринготтса в
-              скале задолго до того, как магглы придумали свои банки. С тех пор
-              ничего не изменилось: мы по-прежнему не доверяем магии в одиночку,
-              не признаём пластиковых карт и никогда не забываем лица тех, кто
-              пытался нас обмануть. Гринготтс — это не место для хранения денег.
-              Это место, где деньги обретают истинную ценность.
-            </p>
-          </div>
-          <div class="about__right">
-            <div class="about__right__item">
-              <img
-                src="./img/about/mine.png"
-                alt="Вагонетка в шахте"
-                class="img-with-shadow"
-              />
-              <div>
-                <h3 style="color: black">Вековая неприкосновенность</h3>
-                <p>
-                  Наши хранилища уходят вглубь на полмили. Маггловская техника
-                  там не работает. Магия — тоже, если вы не гоблин.
-                </p>
-              </div>
-            </div>
-            <div class="about__right__item">
-              <img
-                src="./img/about/dragon.png"
-                alt="Дракон"
-                class="img-with-shadow"
-              />
-              <div>
-                <h3>Драконья охрана</h3>
-                <p>
-                  В банке живут драконы, которые не знают, что такое «ласка».
-                  Они знают только «огонь» и «ещё огонь». Ваши деньги в
-                  безопасности.
-                </p>
-              </div>
-            </div>
-            <div class="about__right__item">
-              <img
-                src="./img/about/castle.png"
-                alt="Фамильнай замок"
-                class="img-with-shadow"
-              />
-              <div>
-                <h3>Абсолютная тайна</h3>
-                <p>
-                  Даже Министерство Магии не имеет права заглядывать в ваш сейф
-                  без вашего личного ключа и разрешения. Мы не выдаём секреты.
-                  Никому. Никогда.
-                </p>
-              </div>
-            </div>
-          </div>
+        <div class="modal-button">
+          <a href="#form-modal">Открыть хранилище</a>
         </div>
       </section>
 
@@ -159,7 +98,79 @@
             Или уже клиент, но забыли пароль. В любом случае — добро пожаловать.
             У нас есть хранилище для вас. Возможно, оно даже пустое. Пока.
           </p>
+          <div class="modal-button">
+            <a href="#form-modal">Открыть хранилище</a>
+          </div>
         </ol>
+      </section>
+
+      <section class="about-bank-facts">
+        <h2>Основан в 1474 году. Ограблен лишь единожды (и то без денег)</h2>
+        <div class="about">
+          <div class="about__left">
+            <img
+              src="./img/about/Gringott.png"
+              alt="Основатель банка Гринготт"
+            />
+            <p>
+              Легендарный гоблин Гринготт вырезал первые своды Гринготтса в
+              скале задолго до того, как магглы придумали свои банки. С тех пор
+              ничего не изменилось: мы по-прежнему не доверяем магии в одиночку,
+              не признаём пластиковых карт и никогда не забываем лица тех, кто
+              пытался нас обмануть. Гринготтс — это не место для хранения денег.
+              Это место, где деньги обретают истинную ценность.
+            </p>
+            <div class="modal-button">
+              <a href="#form-modal">Открыть хранилище</a>
+            </div>
+          </div>
+          <div class="about__right">
+            <div class="about__right__item">
+              <img
+                src="./img/about/mine.png"
+                alt="Вагонетка в шахте"
+                class="img-with-shadow"
+              />
+              <div>
+                <h3 style="color: black">Вековая неприкосновенность</h3>
+                <p>
+                  Наши хранилища уходят вглубь на полмили. Маггловская техника
+                  там не работает. Магия — тоже, если вы не гоблин.
+                </p>
+              </div>
+            </div>
+            <div class="about__right__item">
+              <img
+                src="./img/about/dragon.png"
+                alt="Дракон"
+                class="img-with-shadow"
+              />
+              <div>
+                <h3>Драконья охрана</h3>
+                <p>
+                  В банке живут драконы, которые не знают, что такое «ласка».
+                  Они знают только «огонь» и «ещё огонь». Ваши деньги в
+                  безопасности.
+                </p>
+              </div>
+            </div>
+            <div class="about__right__item">
+              <img
+                src="./img/about/castle.png"
+                alt="Фамильнай замок"
+                class="img-with-shadow"
+              />
+              <div>
+                <h3>Абсолютная тайна</h3>
+                <p>
+                  Даже Министерство Магии не имеет права заглядывать в ваш сейф
+                  без вашего личного ключа и разрешения. Мы не выдаём секреты.
+                  Никому. Никогда.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section id="services">
@@ -306,6 +317,9 @@
           Если он пожмёт плечами — значит, можно;<br />
           Если он вызовет дракона —значит, нет.
         </p>
+        <div class="modal-button">
+          <a href="#form-modal">Открыть хранилище</a>
+        </div>
       </section>
 
       <section id="course-money">
@@ -377,9 +391,12 @@
             </div>
           </div>
         </div>
+        <div class="modal-button">
+          <a href="#form-modal">Открыть хранилище</a>
+        </div>
       </section>
 
-      <section class="modal">
+      <section id="form-modal" class="modal">
         <h2>Оставить заявку на хранилище</h2>
         <form>
           <div class="form-group">
